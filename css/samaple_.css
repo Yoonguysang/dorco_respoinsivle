@@ -1,0 +1,157 @@
+#fullPage {
+}
+.section {
+  position: relative;
+}
+
+/* SECTION 1 */
+.section1 {
+}
+.main_banner {
+  background: url(../image/main/image\ 1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+.main_banner .desc {
+  width: 360px;
+  height: 150px;
+  position: absolute;
+  right: 500px;
+  bottom: 300px;
+  border-radius: 50px;
+  animation: show-bottom 1.5s 1s linear both;
+  animation-delay: 0.6s;
+  text-align: left;
+}
+.main_banner .desc h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 15px 0;
+}
+.main_banner .desc p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.main_banner .desc:hover {
+}
+.main_banner .desc:hover h1 {
+  color: #000;
+}
+.main_banner .desc:hover p {
+  color: #000;
+}
+
+/* SECTION 2 */
+.section2 {
+}
+.item_banner {
+  height: 100vh;
+  overflow: hidden;
+}
+.item_banner .item {
+}
+.item_banner img {
+  width: 100%;
+  height: 70vh;
+}
+.item_banner .item_scroll {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.item_banner .item_scroll .item_slide {
+  text-align: center;
+}
+.item_banner .item_scroll .item_slide img {
+  width: 30vh;
+  height: 20vh;
+}
+.item_banner .item_scroll .item_slide p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #999;
+}
+.item_banner .item_scroll .item_slide p:hover {
+  color: #000;
+}
+
+/* SECTION 3 */
+.section3 {
+}
+.mentoring_wrap {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.mentoring_wrap video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.mentoring_wrap .desc_ment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(138, 126, 126, 0.6);
+  width: 500px;
+  height: 150px;
+  border-radius: 50px;
+}
+.mentoring_wrap .desc_ment:hover {
+  background: #000;
+}
+.mentoring_wrap .desc_ment:hover h2 {
+  color: #fff;
+}
+.mentoring_wrap .desc_ment:hover p {
+  color: #fff;
+}
+.mentoring_wrap h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 15px 0;
+}
+.mentoring_wrap p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* SECTION 4 */
+.section4 {
+}
+.review {
+  height: 100vh;
+  background: url(../image/main/review-b.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.review .review_slide {
+  padding-top: 15%;
+}
+.review .review_slide img {
+}
+
+/* Effect */
+@keyframes show-bottom {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

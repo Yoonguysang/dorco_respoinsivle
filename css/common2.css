@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* 헤더 */
+
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+header .logo {
+  margin-right: 800px;
+}
+header .top-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+header .top-menu:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+header .menu-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .sub-menu {
+  margin-right: 80px;
+}
+header .sub-menu ul {
+  display: flex;
+}
+header .sub-menu ul li {
+  margin-left: 50px;
+}
+header .sub-menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+header .plus-menu img {
+  margin-left: 20px;
+}
+/* 푸터 */
+.footer {
+  background-color: #000;
+  font-size: 15px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 50px;
+}
+.footer .container .footer_desc {
+  display: flex;
+  margin-left: -10px;
+}
+.footer .container .footer_desc ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer .container .footer_desc ul a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 0 10px;
+}
+.footer p {
+  color: #aaa;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.footer .container span {
+  color: #aaa;
+}
+
+.item_list .none {
+  display: none;
+}
